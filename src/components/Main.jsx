@@ -1,11 +1,10 @@
-import { View, Text } from "react-native";
 import React from "react";
-
+import { SafeAreaView, Text } from "react-native";
 const Main = () => {
   return (
-    <View>
+    <SafeAreaView>
       <Text>Rate Repository App</Text>
-    </View>
+    </SafeAreaView>
   );
 };
 
