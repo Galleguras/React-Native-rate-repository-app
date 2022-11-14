@@ -34,5 +34,10 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.31.10"
   },
-  "private": true
+  "private": true,
+  "rnpm": {
+    "assets": [
+      "./fonts/"
+    ]
+  }
 }
