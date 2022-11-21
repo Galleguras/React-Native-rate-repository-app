@@ -1,11 +1,13 @@
-import { View, Text } from "react-native";
+import { View, Text, SafeAreaView } from "react-native";
+import Constants from "expo-constants";
 import React from "react";
-
+import RepositoryList from "./RepositoryList";
 const Main = () => {
   return (
-    <View>
+    <SafeAreaView style={{ margin: 15, flexGrow: 1 }}>
       <Text>Rate Repository App</Text>
-    </View>
+      <RepositoryList />
+    </SafeAreaView>
   );
 };
 
