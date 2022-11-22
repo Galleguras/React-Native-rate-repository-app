@@ -6161,11 +6161,6 @@
     "agent-base" "6"
     "debug" "4"
 
-"humps@^2.0.1":
-  "integrity" "sha512-E0eIbrFWUhwfXJmsbdjRQFQPrl5pTEoKlz163j1mTqqUnU9PgR4AgB8AIITzuB3vLBdxZXyZ9TDIrwB2OASz4g=="
-  "resolved" "https://registry.npmjs.org/humps/-/humps-2.0.1.tgz"
-  "version" "2.0.1"
-
 "hyphenate-style-name@^1.0.2":
   "integrity" "sha512-ygGZLjmXfPHj+ZWh6LwbC37l43MhfztxetbFCoYTM2VjkIUpeHgSNn7QIyVFj7YQ1Wl9Cbw5sholVJPzWvC2MQ=="
   "resolved" "https://registry.npmjs.org/hyphenate-style-name/-/hyphenate-style-name-1.0.4.tgz"
@@ -9445,21 +9440,6 @@
     "jscodeshift" "^0.13.1"
     "nullthrows" "^1.1.1"
 
-"react-native-debugger@^1.1.0":
-  "integrity" "sha512-ckFI3QztvmLUVE/TCA++V5apVWrsARejSXqSFdTtiKmTNOsHhF+KjiVzwBYk1TegiSCjDU0LHO4m5b+HjN0Ncg=="
-  "resolved" "https://registry.npmjs.org/react-native-debugger/-/react-native-debugger-1.1.0.tgz"
-  "version" "1.1.0"
-  dependencies:
-    "humps" "^2.0.1"
-    "lodash" "^4.17.5"
-    "react-native-device-info" "^0.10.2"
-    "redux-create-reducer" "^1.1.1"
-
-"react-native-device-info@^0.10.2":
-  "integrity" "sha512-TgIlL29+ltNQhArNidtsBXC/ae4wgutSp7YUyqwuZC4Jmn2M9R0K4lgdw+hUMhJ5e9z5fBo6ylkybHWbYHYOXA=="
-  "resolved" "https://registry.npmjs.org/react-native-device-info/-/react-native-device-info-0.10.2.tgz"
-  "version" "0.10.2"
-
 "react-native-gradle-plugin@^0.70.3":
   "integrity" "sha512-oOanj84fJEXUg9FoEAQomA8ISG+DVIrTZ3qF7m69VQUJyOGYyDZmPqKcjvRku4KXlEH6hWO9i4ACLzNBh8gC0A=="
   "resolved" "https://registry.npmjs.org/react-native-gradle-plugin/-/react-native-gradle-plugin-0.70.3.tgz"
@@ -9626,11 +9606,6 @@
   "version" "2.2.2"
   dependencies:
     "minimatch" "3.0.4"
-
-"redux-create-reducer@^1.1.1":
-  "integrity" "sha512-H+bi4NCgw253xVVGHRnQQyWVkl2v0MDUiWRzFrSexcSgZ84JOa9Phsso1IRKKkrqGvBqQn2+oLZYdB3/qG99FQ=="
-  "resolved" "https://registry.npmjs.org/redux-create-reducer/-/redux-create-reducer-1.2.0.tgz"
-  "version" "1.2.0"
 
 "regenerate-unicode-properties@^10.1.0":
   "integrity" "sha512-d1VudCLoIGitcU/hEg2QqvyGZQmdC0Lf8BqdOMXGFSvJP4bNV1+XqbPQeHHLD51Jh4QJJ225dlIFvY4Ly6MXmQ=="
