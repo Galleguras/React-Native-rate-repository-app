@@ -1,9 +1,7 @@
-import { View, StyleSheet, Image } from "react-native";
 import React from "react";
-import StyledText from "./StyledText";
-import RepsitoryStats from "./RepsitoryStats";
+import { StyleSheet, View } from "react-native";
 import RepositoryHeader from "./RepositoryHeader";
-import { theme } from "../theme";
+import RepsitoryStats from "./RepsitoryStats";
 const parseThousand = (value) => {
   return value >= 1000 ? `${Math.round(value / 100)}k` : String(value);
 };
@@ -19,15 +17,6 @@ const RepositoryItem = (props) => {
 
 const styles = StyleSheet.create({
   container: { padding: 20, paddingBottom: 5, paddingTop: 5 },
-  language: {
-    padding: 4,
-    color: theme.colors.white,
-    backgroundColor: theme.colors.textSecondary,
-    alignSelf: "flex-start",
-    borderRadius: 3,
-    overflow: "hidden",
-  },
-  image: { width: 50, height: 50, borderRadius: 4 },
 });
 
 export default RepositoryItem;

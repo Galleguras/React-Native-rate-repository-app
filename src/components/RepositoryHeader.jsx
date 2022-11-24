@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Image, StyleSheet } from "react-native";
+import { View, Image, StyleSheet, Platform } from "react-native";
 import StyledText from "./StyledText";
 import { theme } from "../theme";
 const RepositoryHeader = (props) => {
@@ -22,11 +22,14 @@ const RepositoryHeader = (props) => {
   );
 };
 const styles = StyleSheet.create({
-  container: { padding: 20, paddingBottom: 5, paddingTop: 5 },
   language: {
     padding: 4,
     color: theme.colors.white,
-    backgroundColor: theme.colors.textSecondary,
+    backgroundColor: Platform.select({
+      android: theme.colors.textSecondary,
+      ios: theme.colors.primary,
+      default: theme.colors.textThird,
+    }),
     alignSelf: "flex-start",
     borderRadius: 3,
     overflow: "hidden",
